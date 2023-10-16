@@ -11,7 +11,7 @@ routing in `express` can be tricky to understand at first, and while `express`' 
 
 in `express`, you can call `app.get()`, `app.post()`, etc. to provide an endpoint for your web application (often these methods contain a callback function which simply calls `res.render()`).
 
-`Router`s are handy middleware provided by `express` which only contains these functions. we can then mount these to a route in our app with `app.use("/", someRouter)`!
+a `Router` is handy middleware provided by `express` which only contains these functions. we can then mount these to a route in our app with `app.use("/", someRouter)`!
 
 let's look at an example:
 
